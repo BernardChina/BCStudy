@@ -12,3 +12,9 @@ copy 和 mutableCopy  https://juejin.im/entry/599d3f32518825242b036365
 阿里笔试面试知识整理   https://hit-alibaba.github.io/interview/
 
 iOS 保持界面流畅的技巧   https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/
+
+在CGD中快速实现多线程的并发控制dispatch_semaphore_create .  http://www.tanhao.me/pieces/392.html/
+
+iOS实时卡顿监控   http://www.tanhao.me/code/151113.html/
+
+iOS应用UI线程卡顿监控  http://ios.jobbole.com/89548/
