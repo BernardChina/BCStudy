@@ -18,3 +18,5 @@ iOS 保持界面流畅的技巧   https://blog.ibireme.com/2015/11/12/smooth_use
 iOS实时卡顿监控   http://www.tanhao.me/code/151113.html/
 
 iOS应用UI线程卡顿监控  http://ios.jobbole.com/89548/
+
+使用NSProxy和NSObject设计代理类的差异 http://www.tanhao.me/code/160702.html/
