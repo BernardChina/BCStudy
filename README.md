@@ -22,3 +22,6 @@ iOS应用UI线程卡顿监控  http://ios.jobbole.com/89548/
 使用NSProxy和NSObject设计代理类的差异 http://www.tanhao.me/code/160702.html/
 
 无痕埋点   https://github.com/lisidi/SDTrackTool
+
+ios runtime .  http://southpeak.github.io/categories/objectivec/
+Objective-C Runtime 运行时之一：类与对象   http://southpeak.github.io/2014/10/25/objective-c-runtime-1/
