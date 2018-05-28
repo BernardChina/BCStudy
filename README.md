@@ -27,3 +27,5 @@ ios runtime .  http://southpeak.github.io/categories/objectivec/
 Objective-C Runtime 运行时之一：类与对象   http://southpeak.github.io/2014/10/25/objective-c-runtime-1/
 
 iOS Runtime的实际应用 https://www.zybuluo.com/qidiandasheng/note/477679
+
+Method Swizzling的各种姿势  http://www.tanhao.me/code/160723.html/
