@@ -36,3 +36,6 @@ iOS 网络监控框架 - Reachability 源码解读   https://juejin.im/entry/59c
 NSURLSession 的理解  http://civelxu.com/2016/10/01/NSURLSession%20%E7%9A%84%E7%90%86%E8%A7%A3/
 
 [iOS 10]关于NSURLSession的新功能   https://dev.classmethod.jp/smartphone/new-nsurlsession-feature/
+
+
+AFN HTTPS的访问实现原理 安全考虑以及网络监听  https://blog.csdn.net/sinat_24817329/article/details/51886349
