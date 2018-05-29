@@ -34,3 +34,5 @@ Method Swizzling的各种姿势  http://www.tanhao.me/code/160723.html/
 iOS 网络监控框架 - Reachability 源码解读   https://juejin.im/entry/59c8d38e6fb9a00a5a320749
 
 NSURLSession 的理解  http://civelxu.com/2016/10/01/NSURLSession%20%E7%9A%84%E7%90%86%E8%A7%A3/
+
+[iOS 10]关于NSURLSession的新功能   https://dev.classmethod.jp/smartphone/new-nsurlsession-feature/
