@@ -41,3 +41,5 @@ NSURLSession 的理解  http://civelxu.com/2016/10/01/NSURLSession%20%E7%9A%84%E
 AFN HTTPS的访问实现原理 安全考虑以及网络监听  https://blog.csdn.net/sinat_24817329/article/details/51886349
 
 通俗大白话来理解TCP协议的三次握手和四次分手   https://github.com/jawil/blog/issues/14
+
+NSInvocation的基本使用  https://blog.csdn.net/SSIrreplaceable/article/details/53375972
