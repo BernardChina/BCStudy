@@ -45,3 +45,5 @@ AFN HTTPS的访问实现原理 安全考虑以及网络监听  https://blog.csdn
 NSInvocation的基本使用  https://blog.csdn.net/SSIrreplaceable/article/details/53375972
 
 iOS Runtime之二：类与对象的操作  http://www.imlifengfeng.com/blog/?p=392
+
+优化 App 的启动时间   http://ios.jobbole.com/90331/
