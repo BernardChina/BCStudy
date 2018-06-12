@@ -53,3 +53,5 @@ iOS App 启动性能优化   http://www.10tiao.com/html/330/201708/2653579242/1.
 一种基于KVO的页面加载，渲染耗时监控方法   https://satanwoo.github.io/2017/11/27/KVO-Swizzle/
 
 iOS静态库 【.a 和framework】【超详细】  https://my.oschina.net/kaqijiang/blog/649632
+
+NSInvocation的基本使用  https://blog.csdn.net/SSIrreplaceable/article/details/53375972
