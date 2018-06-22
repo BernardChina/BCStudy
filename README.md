@@ -63,3 +63,5 @@ RunLoop刨根问底  https://juejin.im/post/5a94e9185188257a780dde61
 iOS监听线程结束 https://my.oschina.net/u/2410306/blog/529410
 
 iOS多线程全套：线程生命周期，多线程的四种解决方案，线程安全问题，GCD的使用，NSOperation的使用  http://www.cocoachina.com/ios/20170707/19769.html
+
+点我达iOS卡顿监控方案  http://dwdios.com/2017/09/20/iOS%E5%8D%A1%E9%A1%BF%E7%9B%91%E6%8E%A7%E6%96%B9%E6%A1%88/
