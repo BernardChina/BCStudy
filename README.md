@@ -69,3 +69,5 @@ iOS多线程全套：线程生命周期，多线程的四种解决方案，线�
 iOS 之 Thread调用栈学习   https://elliotsomething.github.io/2017/06/28/thread%E5%AD%A6%E4%B9%A0/
 
 ios核心动画高级技巧    https://zsisme.gitbooks.io/ios-/content/index.html
+
+iOS 监控 - 卡顿检测    https://juejin.im/entry/58ddc0f62f301e0062fefae0
