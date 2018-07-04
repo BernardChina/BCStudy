@@ -73,3 +73,5 @@ ios核心动画高级技巧    https://zsisme.gitbooks.io/ios-/content/index.htm
 iOS 监控 - 卡顿检测    https://juejin.im/entry/58ddc0f62f301e0062fefae0
 
 一本ios读书笔记   https://zhongjcbill.gitbooks.io/ios/ios_ui/
+
+React Native - 组件的生命周期详解（附：各阶段调用的方法）  http://www.hangge.com/blog/cache/detail_1765.html
