@@ -81,3 +81,6 @@ React Native - 组件的生命周期详解（附：各阶段调用的方法）  
 用 NSProxy 实现面向切面编程   https://juejin.im/entry/5801091d5bbb50005b6390ed
 
 移动动态化方案在蜂鸟的架构演进（含React Native与Weex对比）  http://blog.51cto.com/wangxy/1957349
+
+
+计算机核心期刊排名   https://zhuanlan.zhihu.com/p/24628954
