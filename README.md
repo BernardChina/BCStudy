@@ -84,3 +84,7 @@ React Native - 组件的生命周期详解（附：各阶段调用的方法）  
 
 
 计算机核心期刊排名   https://zhuanlan.zhihu.com/p/24628954
+
+深入理解GCD  https://bestswifter.com/deep-gcd/
+
+iOS App 启动性能优化   http://www.10tiao.com/html/330/201708/2653579242/1.html
