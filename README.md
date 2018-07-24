@@ -90,3 +90,5 @@ React Native - 组件的生命周期详解（附：各阶段调用的方法）  
 iOS App 启动性能优化   http://www.10tiao.com/html/330/201708/2653579242/1.html
 
 常用的RN框架  https://shenbao.github.io/ishehui/html/RN%20%E5%9F%BA%E7%A1%80/React%20Native%20%E5%B8%B8%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E7%BB%84%E4%BB%B6%E6%B1%87%E6%80%BB.html
+
+Xcode9 + Xcode Server = Comprehensive iOS Continuous Integration .  https://medium.com/xcblog/xcode9-xcode-server-comprehensive-ios-continuous-integration-3613a7973b48
