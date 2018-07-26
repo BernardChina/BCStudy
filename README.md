@@ -98,3 +98,5 @@ Xcode9 + Xcode Server = Comprehensive iOS Continuous Integration .  https://medi
 React-Native中导航组件react-navigation的使用  https://blog.csdn.net/YanceChen2013/article/details/77389331
 
 ReactNative导航新宠儿react-navigation  http://www.guiyongdong.com/2017/05/20/ReactNative%E5%AF%BC%E8%88%AA%E6%96%B0%E5%AE%A0%E5%84%BFreact-navigation/
+
+RN中的各种属性  https://facebook.github.io/react-native/docs/layout-props#flexwrap
