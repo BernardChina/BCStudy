@@ -102,3 +102,7 @@ ReactNative导航新宠儿react-navigation  http://www.guiyongdong.com/2017/05/2
 RN中的各种属性  https://facebook.github.io/react-native/docs/layout-props#flexwrap
 
 网易严选App感受Weex开发（已完结）  https://segmentfault.com/a/1190000011027225#articleHeader38
+
+如何用weexpack创建weex项目并构建app  https://github.com/weexteam/weex-pack/wiki/%E5%A6%82%E4%BD%95%E7%94%A8weexpack%E5%88%9B%E5%BB%BAweex%E9%A1%B9%E7%9B%AE%E5%B9%B6%E6%9E%84%E5%BB%BAapp
+
+weexpack 创建项目, 打包Android 和 ios   https://www.jianshu.com/p/674efb2468e4
