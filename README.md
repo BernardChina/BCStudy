@@ -106,3 +106,7 @@ RN中的各种属性  https://facebook.github.io/react-native/docs/layout-props#
 如何用weexpack创建weex项目并构建app  https://github.com/weexteam/weex-pack/wiki/%E5%A6%82%E4%BD%95%E7%94%A8weexpack%E5%88%9B%E5%BB%BAweex%E9%A1%B9%E7%9B%AE%E5%B9%B6%E6%9E%84%E5%BB%BAapp
 
 weexpack 创建项目, 打包Android 和 ios   https://www.jianshu.com/p/674efb2468e4
+
+ReactNative开发指导/  https://github.com/cnsnake11/blog/tree/master/ReactNative%E5%BC%80%E5%8F%91%E6%8C%87%E5%AF%BC
+
+ReactNative增量升级方案  https://github.com/cnsnake11/blog/blob/master/ReactNative%E5%BC%80%E5%8F%91%E6%8C%87%E5%AF%BC/ReactNative%E5%A2%9E%E9%87%8F%E5%8D%87%E7%BA%A7%E6%96%B9%E6%A1%88.md
