@@ -2,6 +2,8 @@
 
 总结：
 总体来讲，`NSProxy`主要服务于消息转发使用，通过它，我们可以做到组件的开发，彼此之间的节藕。切面编程(AOP)，也是通过此方法。
+
+
 我们大家都知`NSObject`是什么，基本上所有的类都是继承于`NSObject`的。我们首先来看一下`NSObject`的定义
 ```
 @interface NSObject <NSObject> {
