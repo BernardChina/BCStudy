@@ -112,3 +112,5 @@ ReactNative开发指导/  https://github.com/cnsnake11/blog/tree/master/ReactNat
 ReactNative增量升级方案  https://github.com/cnsnake11/blog/blob/master/ReactNative%E5%BC%80%E5%8F%91%E6%8C%87%E5%AF%BC/ReactNative%E5%A2%9E%E9%87%8F%E5%8D%87%E7%BA%A7%E6%96%B9%E6%A1%88.md
 
 微信小程序之圆形进度条 https://segmentfault.com/a/1190000013219501
+
+使用NSProxy和NSObject设计代理类的差异  http://www.tanhao.me/code/160702.html/
