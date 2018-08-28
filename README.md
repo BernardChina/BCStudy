@@ -114,3 +114,7 @@ ReactNative增量升级方案  https://github.com/cnsnake11/blog/blob/master/Rea
 微信小程序之圆形进度条 https://segmentfault.com/a/1190000013219501
 
 使用NSProxy和NSObject设计代理类的差异  http://www.tanhao.me/code/160702.html/
+
+GCD源码吐血分析(1)——GCD Queue  https://blog.csdn.net/u013378438/article/details/81031938
+
+GCD源码吐血分析(2)——dispatch_async/dispatch_sync  https://blog.csdn.net/u013378438/article/details/81076116
