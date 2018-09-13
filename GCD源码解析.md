@@ -245,5 +245,141 @@ _dispatch_sync_invoke_and_complete(dispatch_queue_t dq, void *ctxt,
 
 #####dispatch_async
 
+`dispatch_async`运用了底层线程池，会在和当前线程不同的线程上处理任务。同一个队列在异步执行，会在同一个线程中。不同的队列，异步执行，才会重启一个线程
+首先，我依然还是通过几个例子，还看看什么效果，并且调出他们的堆栈.
+
+```objectivec
+// 串行队列异步执行
+dispatch_queue_t queue01 = dispatch_queue_create("queue01", DISPATCH_QUEUE_SERIAL);
+    dispatch_async(queue01, ^{
+        NSLog(@"current thread = %@", [NSThread currentThread]);
+        NSLog(@"111");
+    });
+
+// 执行结果
+
+myDemo[38842:5876694] current thread = <NSThread: 0x600000278b40>{number = 3, name = (null)}
+myDemo[38842:5876694] 111
+```
+调用堆栈：
+![Alt text](./1536762042820.png)
+
+
+```objectivec
+// 异步队列异步执行
+dispatch_queue_t queue01 = dispatch_queue_create("queue01", DISPATCH_QUEUE_CONCURRENT);
+    
+    dispatch_async(queue01, ^{
+        NSLog(@"current thread = %@", [NSThread currentThread]);
+        NSLog(@"111");
+    });
+
+// 执行结果
+myDemo[39184:5895013] current thread = <NSThread: 0x604000475780>{number = 3, name = (null)}
+myDemo[39184:5895013] 111
+```
+
+调用堆栈：
+![Alt text](./1536762639010.png)
+
+```objectivec
+// 创建全局异步队列
+dispatch_queue_t queue01 = dispatch_get_global_queue(0, 0);
+    
+    dispatch_async(queue01, ^{
+        NSLog(@"current thread = %@", [NSThread currentThread]);
+        NSLog(@"111");
+    });
+
+// 执行结果
+myDemo[39245:5898319] current thread = <NSThread: 0x600000466640>{number = 3, name = (null)}
+myDemo[39245:5898319] 111
+```
+
+调用堆栈：
+![Alt text](./1536762793065.png)
+
+
+通过上面的代码显示，`无论是我们创建的时候串行队列，还是异步队列，或者是全局队列，只要异步执行，都会创建新的线程，只不过调用堆栈，有些许不同`，后面，我们讲解代码的时候，会根据堆栈来讲解。
+下面，我来看一下，其他的情况：
+
+```
+dispatch_queue_t queue01 = dispatch_queue_create("queue01", DISPATCH_QUEUE_SERIAL);
+ dispatch_async(queue01, ^{
+        sleep(5);
+        NSLog(@"current thread = %@", [NSThread currentThread]);
+        NSLog(@"111");
+    });
+    dispatch_async(queue01, ^{
+        NSLog(@"current thread = %@", [NSThread currentThread]);
+        NSLog(@"222");
+    });
+    
+// 执行结果
+myDemo[39545:5914239] current thread = <NSThread: 0x60000027cb40>{number = 3, name = (null)}
+myDemo[39545:5914239] 111
+myDemo[39545:5914239] current thread = <NSThread: 0x60000027cb40>{number = 3, name = (null)}
+myDemo[39545:5914239] 222
+```
+`同一个串行队列异步执行，会在同一个异步线程中，串行执行`
+
+```
+dispatch_queue_t queue01 = dispatch_queue_create("queue01", DISPATCH_QUEUE_CONCURRENT);
+dispatch_async(queue01, ^{
+        sleep(5);
+        NSLog(@"current thread = %@", [NSThread currentThread]);
+        NSLog(@"111");
+    });
+    dispatch_async(queue01, ^{
+        NSLog(@"current thread = %@", [NSThread currentThread]);
+        NSLog(@"222");
+    });
+// 执行结果
+
+myDemo[39642:5919537] current thread = <NSThread: 0x600000265bc0>{number = 3, name = (null)}
+myDemo[39642:5919537] 222
+myDemo[39642:5919535] current thread = <NSThread: 0x60000007e700>{number = 4, name = (null)}
+myDemo[39642:5919535] 111
+```
+`同一个并行队列，异步执行，会分别生成两个不同的线程。相当于是每一次的并行队列，异步执行，都会重启一个线程执行`
+
+```
+// 全局队列
+dispatch_queue_t queue01 = dispatch_get_global_queue(0, 0);
+dispatch_async(queue01, ^{
+        sleep(5);
+        NSLog(@"current thread = %@", [NSThread currentThread]);
+        NSLog(@"111");
+    });
+    dispatch_async(queue01, ^{
+        NSLog(@"current thread = %@", [NSThread currentThread]);
+        NSLog(@"222");
+    });
+// 执行结果
+myDemo[39753:5926161] current thread = <NSThread: 0x6040002656c0>{number = 3, name = (null)}
+myDemo[39753:5926161] 222
+myDemo[39753:5926162] current thread = <NSThread: 0x600000460fc0>{number = 4, name = (null)}
+myDemo[39753:5926162] 111
+```
+可以上面的是同样的结果。
+
+#####异步源码的分析
+通过上面的串行队列异步执行的堆栈，我们清楚分别执行：
+
+`_dispatch_queue_push`->`start_wqthread`->`_dispatch_call_block_and_release`
+
+```
+#ifdef __BLOCKS__
+void
+dispatch_async(dispatch_queue_t dq, dispatch_block_t work)
+{
+	dispatch_continuation_t dc = _dispatch_continuation_alloc();
+	uintptr_t dc_flags = DISPATCH_OBJ_CONSUME_BIT;
+
+	_dispatch_continuation_init(dc, dq, work, 0, 0, dc_flags);
+	_dispatch_continuation_async(dq, dc);
+}
+```
+
 继续中。。。
 
