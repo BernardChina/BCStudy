@@ -118,3 +118,5 @@ ReactNative增量升级方案  https://github.com/cnsnake11/blog/blob/master/Rea
 GCD源码吐血分析(1)——GCD Queue  https://blog.csdn.net/u013378438/article/details/81031938
 
 GCD源码吐血分析(2)——dispatch_async/dispatch_sync  https://blog.csdn.net/u013378438/article/details/81076116
+
+【Pthreads学习笔记】基本使用  http://blog.zhangjikai.com/2016/04/25/%E3%80%90Pthreads%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/
