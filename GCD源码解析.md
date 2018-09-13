@@ -245,7 +245,8 @@ _dispatch_sync_invoke_and_complete(dispatch_queue_t dq, void *ctxt,
 
 #####dispatch_async
 
-`dispatch_async`运用了底层线程池，会在和当前线程不同的线程上处理任务。同一个队列在异步执行，会在同一个线程中。不同的队列，异步执行，才会重启一个线程
+`dispatch_async`运用了底层线程池，会在和当前线程不同的线程上处理任务。同一个串行队列在异步执行，会在同一个线程中。不同的串行队列，异步执行，才会重启一个线程。但是并行队列，每次都会重启一个线程。
+
 首先，我依然还是通过几个例子，还看看什么效果，并且调出他们的堆栈.
 
 ```objectivec
