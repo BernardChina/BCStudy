@@ -125,3 +125,5 @@ GCD源码吐血分析(2)——dispatch_async/dispatch_sync  https://blog.csdn.ne
 浅谈iOS多线程(源码)  https://leylfl.github.io/2018/01/16/%E6%B5%85%E8%B0%88iOS%E5%A4%9A%E7%BA%BF%E7%A8%8B-%E6%BA%90%E7%A0%81/
 
 GCD会创建多少个线程  https://blog.csdn.net/zhangjie1989/article/details/79054811
+
+Pthread：POSIX 多线程程序设计  https://www.cnblogs.com/mywolrd/archive/2009/02/05/1930707.html
