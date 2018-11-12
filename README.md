@@ -129,3 +129,5 @@ GCD会创建多少个线程  https://blog.csdn.net/zhangjie1989/article/details/
 Pthread：POSIX 多线程程序设计  https://www.cnblogs.com/mywolrd/archive/2009/02/05/1930707.html
 
 通用线程：POSIX 线程详解-条件变量 https://www.ibm.com/developerworks/cn/linux/thread/posix_thread3/index.html
+
+node版本管理工具nvm-Mac下安装及使用  https://segmentfault.com/a/1190000004404505
