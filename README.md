@@ -131,3 +131,8 @@ Pthread：POSIX 多线程程序设计  https://www.cnblogs.com/mywolrd/archive/2
 通用线程：POSIX 线程详解-条件变量 https://www.ibm.com/developerworks/cn/linux/thread/posix_thread3/index.html
 
 node版本管理工具nvm-Mac下安装及使用  https://segmentfault.com/a/1190000004404505
+
+箭头函数  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+类的定义Classes  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
