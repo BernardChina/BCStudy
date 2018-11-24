@@ -137,3 +137,6 @@ node版本管理工具nvm-Mac下安装及使用  https://segmentfault.com/a/1190
 类的定义Classes  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
 10条首页  http://www.10tiao.com/
+
+探索react native首屏渲染最佳实践   http://www.alloyteam.com/2016/03/best-practice-in-react-native/
+
