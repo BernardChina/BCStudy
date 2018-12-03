@@ -142,3 +142,7 @@ node版本管理工具nvm-Mac下安装及使用  https://segmentfault.com/a/1190
 
 在iOS项目中使用WebP格式图片  https://blog.devzeng.com/blog/ios-webp-usage.html
 
+理解JavaScript中的bind  https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/
+
+深入浅出JavaScript之call()、apply()方法  https://segmentfault.com/a/1190000008354485
+
