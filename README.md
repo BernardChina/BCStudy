@@ -146,3 +146,5 @@ node版本管理工具nvm-Mac下安装及使用  https://segmentfault.com/a/1190
 
 深入浅出JavaScript之call()、apply()方法  https://segmentfault.com/a/1190000008354485
 
+reactjs文档  https://reactjs.org/docs/getting-started.html
+
