@@ -151,3 +151,5 @@ reactjs文档  https://reactjs.org/docs/getting-started.html
 移动动态化方案在蜂鸟的架构演进（含React Native与Weex对比） http://developer.51cto.com/art/201708/548406.htm
 
 react-navigation使用详解  https://segmentfault.com/a/1190000016286883
+
+IOS 格式化输出符号与类型转换  https://blog.csdn.net/u011872945/article/details/16897619
