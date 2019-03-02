@@ -155,3 +155,5 @@ react-navigation使用详解  https://segmentfault.com/a/1190000016286883
 IOS 格式化输出符号与类型转换  https://blog.csdn.net/u011872945/article/details/16897619
 
 node.js 升级——最简单的方法 https://segmentfault.com/a/1190000006869650
+
+iOS 【iOS-PresentViewController切换界面 Modal】 . https://blog.csdn.net/felicity294250051/article/details/50688667
