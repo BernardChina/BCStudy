@@ -159,3 +159,6 @@ node.js 升级——最简单的方法 https://segmentfault.com/a/11900000068696
 iOS 【iOS-PresentViewController切换界面 Modal】 . https://blog.csdn.net/felicity294250051/article/details/50688667
 
 iOS应用架构谈 本地持久化方案及动态部署 .  https://casatwy.com/iosying-yong-jia-gou-tan-ben-di-chi-jiu-hua-fang-an-ji-dong-tai-bu-shu.html
+
+顶顶顶顶生成本地main.js bundle命令   curl http://localhost:8081/index.ios.bundle -o main.jsbundle
+
