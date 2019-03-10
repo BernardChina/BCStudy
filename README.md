@@ -157,3 +157,5 @@ IOS 格式化输出符号与类型转换  https://blog.csdn.net/u011872945/artic
 node.js 升级——最简单的方法 https://segmentfault.com/a/1190000006869650
 
 iOS 【iOS-PresentViewController切换界面 Modal】 . https://blog.csdn.net/felicity294250051/article/details/50688667
+
+iOS应用架构谈 本地持久化方案及动态部署 .  https://casatwy.com/iosying-yong-jia-gou-tan-ben-di-chi-jiu-hua-fang-an-ji-dong-tai-bu-shu.html
