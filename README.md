@@ -162,3 +162,5 @@ iOS应用架构谈 本地持久化方案及动态部署 .  https://casatwy.com/i
 
 顶顶顶顶生成本地main.js bundle命令   curl http://localhost:8081/index.ios.bundle -o main.jsbundle
 
+NSLocale .  https://nshipster.cn/nslocale/
+
