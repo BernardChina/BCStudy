@@ -164,3 +164,5 @@ iOS应用架构谈 本地持久化方案及动态部署 .  https://casatwy.com/i
 
 NSLocale .  https://nshipster.cn/nslocale/
 
+
+iOS 组件化实现的一些思路总结  https://my.oschina.net/FEEDFACF/blog/1609377
