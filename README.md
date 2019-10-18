@@ -174,3 +174,7 @@ React Native工程离线运行（ios）  https://blog.csdn.net/lotheve/article/d
 React Native组件开发指南  https://segmentfault.com/a/1190000018307007
 
 React Native应用部署/热更新-CodePush最新集成总结(新) 。https://github.com/crazycodeboy/RNStudyNotes/tree/master/React%20Native%E5%BA%94%E7%94%A8%E9%83%A8%E7%BD%B2%E3%80%81%E7%83%AD%E6%9B%B4%E6%96%B0-CodePush%E6%9C%80%E6%96%B0%E9%9B%86%E6%88%90%E6%80%BB%E7%BB%93
+
+你真的了解React吗？这里有50个React面试问题 https://codersera.com/blog/top-50-react-questions-you-need-to-prepare-for-the-interview-in-2019/
+你真的了解React吗？这里有50个React面试问题-翻译版 https://mp.weixin.qq.com/s/3ZcH3hvmoXfQIgRWnFfNBQ
+
